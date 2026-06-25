@@ -9,7 +9,7 @@ from telegram.ext import Application, CommandHandler, CallbackQueryHandler, Cont
 logging.basicConfig(level=logging.INFO)
 log = logging.getLogger(__name__)
 
-BOT_TOKEN = os.environ["8930885128:AAGoGi3U9SI7kUmJ9BYm0sQaXnPyZrrtmHs"]
+BOT_TOKEN = os.environ["BOT_TOKEN"]
 ADMIN_ID = int(os.environ.get("ADMIN_ID", "7664139802"))
 SITE_LINK = os.environ.get("SITE_LINK", "https://apex-trading-eta.vercel.app/")
 CHANNEL_LINK = os.environ.get("CHANNEL_LINK", "https://t.me/princexiq")
