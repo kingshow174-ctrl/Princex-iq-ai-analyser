@@ -1,0 +1,6 @@
+services:
+  - type: worker
+    name: princex-bot
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot_local.py
